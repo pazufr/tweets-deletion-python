@@ -13,7 +13,8 @@ Disclaimers :
 7. At the end of the process or when an exception is properly caught, the csv file is updated by putting some run date is 'done' column. It allows to relaunch the deletion script because it will bypass the done requests.
 # Build
 The code has to be customized to your own account. Be careful, token / authentication are hardcoded once you have finished your customization.
-Customization of the deletion process
+
+  Customization of the deletion process
 1. Using a web browser and launching some development console to track the requests, delete manually a tweet et search the DeleteTweet request to api
 2. The console should help you to get the curl command
 3. Convert the curl command to python request. Curlconvert is your friend.
