@@ -18,6 +18,6 @@ Customization of the deletion process
 2. The console should help you to get the curl command
 3. Convert the curl command to python request. Curlconvert is your friend.
 4. Copy paste partially the code into tweet_request.py file : The original code is standalone and we need to transform it into a module with a tweet_id as variable. The hardcoded tweet_id in your sample request has to be replaced with the tweet_id variable. The orther main change is to add some try/catch blocks to easily manage some common exceptions such as timeouts.
-#Performance
+# Performance
 * The filtering run takes a few seconds on 300 MB of JS archives
 * The deletion part depends on the time you set between 2 requests. Run done on 25k. 
