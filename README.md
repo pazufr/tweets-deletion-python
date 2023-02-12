@@ -15,7 +15,7 @@ Disclaimers :
 The code has to be customized to your own account. Be careful, token / authentication are hardcoded once you have finished your customization.
 
   Customization of the deletion process
-1. Using a web browser and launching some development console to track the requests, delete manually a tweet et search the DeleteTweet request to api
+1. Using a web browser and launching some development console to track the requests, delete manually a tweet and search the DeleteTweet request to api
 2. The console should help you to get the curl command
 3. Convert the curl command to a python request. Curlconvert is your friend.
 4. Copy paste partially the code into tweet_request.py file : The original code is standalone and we need to transform it into a module with a tweet_id as variable. The hardcoded tweet_id in your sample request has to be replaced with the tweet_id variable. The other main change is to add a try/catch block to easily manage some common exceptions such as timeouts.
