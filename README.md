@@ -4,8 +4,8 @@ Disclaimers :
 * The code DOES NOT work as is. It requires some development skills to customize it for the build.
 * It may work today but not anymore tomorrow as you-know-who asks to his teams to change everything every deux seconds :)
 # Steps
-1. Request you archive file to Twitter.
-2. From the archiche, extract the tweets.js (and also tweets-part<n>.js files if you have a huge number of tweets) and put it (them) in the same directory as the tookits
+1. Request your archive file to Twitter.
+2. From the archive, extract the tweets.js (and also tweets-part<n>.js files if you have a huge number of tweets) and put it (them) in the same directory as the tookits
 3. Edit filter.py, which selects the tweets to delete. You need to indicate the range dates and you can indicate a string value if you want to affine your selection
 4. Launching filter.py created tweets_to_delete.csv file
 5. Edit/Build tweet_request.py (see details below)
