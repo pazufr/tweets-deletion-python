@@ -10,7 +10,7 @@ Disclaimers :
 4. Launching filter.py created tweets_to_delete.csv file
 5. Edit/Build tweet_request.py (see details below)
 6. Launch delete_tweets.py, which reads the csv file and launches the deletion requests one by one
-7. At the end of the process or when an exception is properly caught, the csv file is updated by putting some run date is 'done' column. It allows to relaunch the deletion script because it will bypass the done requests.
+7. At the end of the process or when an exception is properly caught, the csv file is updated with some run date in the 'done' column. It enables to relaunch the deletion script because it will bypass the done requests.
 # Build
 The code has to be customized to your own account. Be careful, token / authentication are hardcoded once you have finished your customization.
 
